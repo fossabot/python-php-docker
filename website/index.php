@@ -2,7 +2,7 @@
 <head>
 </head>
 <body>
-    <h1>welcome to dell emc</h1>
+    <h1>welcome to my ecommerce</h1>
     <ul>
     <?php
         $json = file_get_contents("http://product-service");
