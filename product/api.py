@@ -6,9 +6,9 @@ class Product(Resource):
     def get(self):
         return {
             'products':['Ice Cream',
-                        'choclate',
-                        'samosa',
-                        'jalebi']
+                        'chocolate',
+                        'pizza'
+                        ]
         }
 api.add_resource(Product,'/');
 if __name__=='__main__':
